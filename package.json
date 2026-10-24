@@ -1,0 +1,31 @@
+{
+  "name": "so-tay-ai",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Sổ tay AI hỗ trợ giáo viên Tiểu học xây dựng kế hoạch bài dạy: frontend hoàn chỉnh + server mẫu Node; backend chạy trên Cloudflare Workers + D1 (xem PLAN.md)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "test:api": "node tools/api-test.mjs http://localhost:8080",
+    "build:seed": "node tools/build-seed.mjs",
+    "cf:dev": "wrangler dev",
+    "cf:test": "node tools/api-test.mjs http://localhost:8787",
+    "cf:db:migrate:local": "wrangler d1 migrations apply sotay-ai --local",
+    "cf:db:migrate:remote": "wrangler d1 migrations apply sotay-ai --remote",
+    "cf:deploy": "wrangler deploy",
+    "typecheck": "tsc --noEmit",
+    "cf:types": "wrangler types"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "hono": "^4.13.13"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^5.20261022.1",
+    "@types/node": "^26.6.5",
+    "typescript": "^7.0.2",
+    "wrangler": "^4.151.3"
+  }
+}

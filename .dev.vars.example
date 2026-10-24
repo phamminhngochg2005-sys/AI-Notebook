@@ -1,0 +1,3 @@
+# Sao chép thành .dev.vars khi chạy `npx wrangler dev` trên máy (không commit .dev.vars)
+APP_ENV=dev
+PBKDF2_ITERATIONS=10000

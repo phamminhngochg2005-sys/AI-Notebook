@@ -1,0 +1,10 @@
+{
+  "server_pid": 31805,
+  "tunnel_pid": 31832,
+  "local_url": "http://127.0.0.1:4178",
+  "document_root": "/Users/jason/Desktop/AI Notebook/v4-flipbook",
+  "public_url": "https://submissions-limitation-reproduction-paragraphs.trycloudflare.com",
+  "server_session_id": 31381,
+  "tunnel_session_id": 61719,
+  "tunnel_log": "/Users/jason/Desktop/AI Notebook/output/website-so-tay-ai/cloudflare/tunnel-v4-active.log"
+}

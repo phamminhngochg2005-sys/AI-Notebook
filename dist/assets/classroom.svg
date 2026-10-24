@@ -1,0 +1,103 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="650" viewBox="0 0 1200 650" fill="none">
+  <title>Lớp học giữa những triền đồi và trang giáo án mở</title>
+  <desc>Minh họa vector nguyên bản: ngôi trường nhỏ, giáo viên và học sinh bên triền núi xanh, cuốn sách mở cùng bút và thước trên bàn gỗ.</desc>
+  <defs>
+    <clipPath id="landscape">
+      <path d="M108 278C107 174 208 112 349 108C477 105 535 62 680 77C823 91 849 130 965 143C1086 157 1146 248 1125 355C1105 457 983 490 811 486L310 480C177 478 108 403 108 278Z"/>
+    </clipPath>
+  </defs>
+
+  <!-- The whole scene sits in one quiet, organic landscape. -->
+  <g clip-path="url(#landscape)">
+    <path d="M75 55H1154V502H75Z" fill="#F5F6EE"/>
+    <circle cx="932" cy="152" r="34" fill="#EEDDAE"/>
+    <path d="M47 315C128 255 162 271 215 214C276 148 292 144 348 209C379 245 400 241 442 196C500 134 534 155 585 205C637 257 651 219 698 164C748 106 779 107 840 183C894 250 908 191 954 180C1002 168 1057 229 1166 261V494H47V315Z" fill="#DFE8DD"/>
+    <path d="M65 347C177 285 205 300 280 270C353 240 371 251 448 300C497 332 528 273 578 244C625 217 655 274 718 287C778 300 805 223 871 239C937 255 986 314 1037 287C1091 258 1116 306 1180 316V503H65V347Z" fill="#C8D9C8"/>
+    <path d="M57 410C151 354 211 387 288 354C356 325 385 330 453 357C527 386 582 318 644 318C729 318 772 376 848 357C917 339 968 319 1049 351C1107 374 1145 365 1179 364V512H57V410Z" fill="#AEC5B5"/>
+    <path d="M91 452C219 399 314 455 451 414C583 375 699 417 803 397C929 374 1041 404 1154 422V511H91V452Z" fill="#93B39C"/>
+    <path d="M725 482C777 446 815 428 889 403C968 375 975 346 934 323" stroke="#DCE4C9" stroke-width="21" stroke-linecap="round"/>
+    <path d="M118 443C207 415 273 419 333 437" stroke="#CBD5AD" stroke-width="4" stroke-linecap="round"/>
+    <path d="M1045 412C1071 409 1094 412 1114 420" stroke="#D8DFC4" stroke-width="4" stroke-linecap="round"/>
+
+    <!-- School: a modest, welcoming building with a shaded veranda. -->
+    <path d="M786 285L817 233H1028L1063 285H786Z" fill="#A65F49"/>
+    <path d="M802 277H1048V347H802V277Z" fill="#F2E9CF"/>
+    <path d="M1016 277H1048V347H1016V277Z" fill="#E3D5B0"/>
+    <path d="M783 283L815 229H1029L1067 283H783Z" fill="#C5785A"/>
+    <path d="M813 244H1037M805 257H1046M797 270H1057" stroke="#AF624A" stroke-width="3"/>
+    <path d="M843 232L821 280M879 232L866 280M914 232L910 280M949 232L955 280M985 232L1000 280" stroke="#D58F6D" stroke-width="2"/>
+    <path d="M825 295H856V322H825V295Z" fill="#72988A"/>
+    <path d="M879 295H910V322H879V295Z" fill="#72988A"/>
+    <path d="M986 295H1016V322H986V295Z" fill="#72988A"/>
+    <path d="M840.5 296V321M894.5 296V321M1001 296V321" stroke="#E9DFC1" stroke-width="3"/>
+    <path d="M938 294C938 291 940 289 943 289H963C966 289 968 291 968 294V347H938V294Z" fill="#496F5B"/>
+    <path d="M791 330H1061L1071 341H784L791 330Z" fill="#CEB98E"/>
+    <path d="M800 341H1058V353H800V341Z" fill="#E3D7B7"/>
+    <path d="M815 287V331M1033 287V331" stroke="#B89968" stroke-width="5"/>
+    <path d="M780 353H1074" stroke="#789B7F" stroke-width="5" stroke-linecap="round"/>
+
+    <!-- Small figures belong to the place, with no costume stereotypes. -->
+    <path d="M745 337C741 330 742 318 750 315C757 312 764 318 764 326V338H745Z" fill="#355B4B"/>
+    <circle cx="753" cy="325" r="9" fill="#E4B68B"/>
+    <path d="M741 348C741 340 746 337 753 337C760 337 766 340 768 349L772 376H738L741 348Z" fill="#C5785A"/>
+    <path d="M746 374L744 399M761 374L766 399" stroke="#355B4B" stroke-width="7" stroke-linecap="round"/>
+    <path d="M741 347L731 364M766 347L780 355" stroke="#DCAE86" stroke-width="6" stroke-linecap="round"/>
+    <path d="M724 362L738 356L742 369L728 375L724 362Z" fill="#F3EAD1"/>
+    <path d="M786 348C786 340 798 337 803 345L804 354H786V348Z" fill="#49654F"/>
+    <circle cx="795" cy="352" r="8" fill="#E4B68B"/>
+    <path d="M785 372C785 363 789 360 795 360C801 360 805 365 805 372V388H783L785 372Z" fill="#D7B66C"/>
+    <path d="M788 387L786 405M800 387L803 405" stroke="#496F5B" stroke-width="6" stroke-linecap="round"/>
+    <path d="M786 368L779 375M804 369L811 380" stroke="#DCAE86" stroke-width="5" stroke-linecap="round"/>
+    <path d="M822 355C821 346 833 342 839 350L840 358H822V355Z" fill="#355B4B"/>
+    <circle cx="831" cy="357" r="8" fill="#D8A47D"/>
+    <path d="M820 375C821 367 825 365 831 365C838 365 842 370 842 377V392H819L820 375Z" fill="#F2E9CF"/>
+    <path d="M824 392L823 408M836 392L839 408" stroke="#496F5B" stroke-width="6" stroke-linecap="round"/>
+    <path d="M821 373L813 382M840 373L845 386" stroke="#D09D76" stroke-width="5" stroke-linecap="round"/>
+    <path d="M843 373C848 372 850 376 849 383L848 392H842V375" fill="#C5785A"/>
+
+    <!-- A single tree frames the left and connects the foreground. -->
+    <path d="M210 470C208 403 220 327 210 250" stroke="#718A68" stroke-width="14" stroke-linecap="round"/>
+    <path d="M214 371L174 318M217 324L255 275M212 292L185 264" stroke="#718A68" stroke-width="7" stroke-linecap="round"/>
+    <path d="M209 276C166 292 129 257 143 221C153 195 184 185 208 200C216 166 260 166 278 194C306 194 320 220 310 244C299 272 265 285 239 272C228 284 218 283 209 276Z" fill="#6D947B"/>
+    <path d="M169 336C138 347 114 327 122 302C127 283 149 278 165 285C177 262 209 272 213 295C230 318 205 342 181 335C177 337 173 338 169 336Z" fill="#7EA184"/>
+    <path d="M257 311C229 318 210 296 221 276C228 263 242 261 255 268C266 249 292 257 296 276C314 295 287 318 268 311C264 313 261 313 257 311Z" fill="#89AA88"/>
+    <path d="M177 228C190 222 200 223 210 228M242 203C254 201 262 205 266 213M153 304C164 301 171 304 177 310" stroke="#9EB996" stroke-width="3" stroke-linecap="round"/>
+  </g>
+
+  <!-- Desk and the open lesson-planning notebook unify the foreground. -->
+  <path d="M238 497C397 482 711 479 990 506C1031 510 1066 529 1065 547C1065 565 1039 577 990 581C741 601 441 594 251 574C203 569 178 555 181 536C184 518 205 506 238 497Z" fill="#DEC49C"/>
+  <path d="M182 543C239 572 455 580 652 580C821 580 988 575 1062 550V565C1054 585 960 601 813 605H414C275 599 191 583 182 562V543Z" fill="#C8A57B"/>
+  <path d="M254 554C323 563 392 565 452 565M788 520C843 521 890 524 934 529M849 570C899 569 933 567 967 561" stroke="#BE966A" stroke-width="2.5" stroke-linecap="round" opacity="0.6"/>
+
+  <!-- The cover and paper have soft, imperfect arcs rather than UI panels. -->
+  <path d="M288 464C362 433 462 444 537 481C598 452 681 446 765 464L793 550C711 538 627 544 547 573C462 539 378 535 284 546L288 464Z" fill="#355B4B"/>
+  <path d="M296 451C381 428 463 439 539 474C604 439 682 433 757 449L779 537C701 523 626 534 545 559C467 531 387 521 299 534L296 451Z" fill="#F3EBD7"/>
+  <path d="M295 440C374 419 469 433 539 468L544 551C475 519 384 510 297 524L295 440Z" fill="#FFFDF5"/>
+  <path d="M539 468C613 429 692 425 757 440L777 526C698 516 626 526 544 551L539 468Z" fill="#FBF8ED"/>
+  <path d="M539 468L544 551" stroke="#D3CDB7" stroke-width="3"/>
+  <path d="M313 515C393 504 474 515 536 540M553 540C624 520 693 510 762 516" stroke="#E5DCC5" stroke-width="2"/>
+
+  <!-- Discreet manuscript marks, with no readable text. -->
+  <path d="M327 460C378 452 425 457 470 472" stroke="#AAC1AF" stroke-width="6" stroke-linecap="round"/>
+  <path d="M327 478C380 471 439 479 489 496M328 490C373 486 410 490 446 499M330 502C363 499 389 502 417 507" stroke="#D5DCCB" stroke-width="3" stroke-linecap="round"/>
+  <path d="M575 477C622 460 669 452 717 454" stroke="#D7B66C" stroke-width="6" stroke-linecap="round"/>
+  <path d="M575 492C624 477 673 468 725 471M577 505C615 493 649 487 681 485M579 518C623 505 670 499 716 499" stroke="#CDD7C6" stroke-width="3" stroke-linecap="round"/>
+  <path d="M512 544L514 579L528 572L538 581L533 552" fill="#C5785A"/>
+
+  <!-- Simple classroom tools placed naturally on the wooden surface. -->
+  <g transform="rotate(11 873 545)">
+    <rect x="807" y="530" width="160" height="23" rx="3" fill="#E9D69D"/>
+    <path d="M818 531V541M832 531V537M846 531V541M860 531V537M874 531V541M888 531V537M902 531V541M916 531V537M930 531V541M944 531V537M958 531V541" stroke="#B4975E" stroke-width="1.5"/>
+  </g>
+  <g transform="rotate(-18 888 506)">
+    <path d="M820 501H942L955 506L942 511H820V501Z" fill="#D7B66C"/>
+    <path d="M820 506H941V511H820V506Z" fill="#C39F51"/>
+    <path d="M942 501L955 506L942 511V501Z" fill="#E8D7B7"/>
+    <path d="M951 504.5L955 506L951 507.5V504.5Z" fill="#355B4B"/>
+    <path d="M817 501H828V511H817C814 511 813 508 813 506C813 503 814 501 817 501Z" fill="#C5785A"/>
+    <path d="M827 501V511" stroke="#F4EBD7" stroke-width="3"/>
+  </g>
+  <path d="M257 480C248 464 247 450 252 435C263 443 269 457 266 470" fill="#93B39C"/>
+  <path d="M265 486C270 471 279 462 292 459C291 473 281 484 269 489" fill="#AEC5B5"/>
+  <path d="M265 500L258 465" stroke="#6D947B" stroke-width="2.5" stroke-linecap="round"/>
+</svg>

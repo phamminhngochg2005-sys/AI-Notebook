@@ -1,0 +1,143 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="780" viewBox="0 0 900 780" fill="none">
+  <title>Sách mở và mạng kết nối trí tuệ nhân tạo</title>
+  <desc>Minh họa vector nguyên bản với sách mở màu trắng, bìa tím indigo, các nút kết nối tím và cyan trên nền trong suốt.</desc>
+  <defs>
+    <linearGradient id="cover" x1="209" y1="406" x2="697" y2="626" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8273F3"/>
+      <stop offset="0.49" stop-color="#6254E8"/>
+      <stop offset="1" stop-color="#40329D"/>
+    </linearGradient>
+    <linearGradient id="edge" x1="463" y1="576" x2="455" y2="652" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#7B6BF1"/>
+      <stop offset="1" stop-color="#4635A7"/>
+    </linearGradient>
+    <linearGradient id="pageLeft" x1="161" y1="356" x2="474" y2="567" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="0.74" stop-color="#FCFBFF"/>
+      <stop offset="1" stop-color="#EDEAFF"/>
+    </linearGradient>
+    <linearGradient id="pageRight" x1="491" y1="443" x2="753" y2="481" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#E4E0FA"/>
+      <stop offset="0.12" stop-color="#F8F7FF"/>
+      <stop offset="0.64" stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#F7FAFF"/>
+    </linearGradient>
+    <linearGradient id="connection" x1="160" y1="164" x2="761" y2="495" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#A799F6"/>
+      <stop offset="0.5" stop-color="#6254E8"/>
+      <stop offset="1" stop-color="#31B8D8"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="688" y1="198" x2="767" y2="303" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF" stop-opacity="0.98"/>
+      <stop offset="1" stop-color="#E4F8FC" stop-opacity="0.9"/>
+    </linearGradient>
+    <linearGradient id="spark" x1="420" y1="148" x2="475" y2="211" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#8B7CF3"/>
+      <stop offset="0.6" stop-color="#6254E8"/>
+      <stop offset="1" stop-color="#31B8D8"/>
+    </linearGradient>
+    <radialGradient id="aura" cx="0" cy="0" r="1" gradientTransform="translate(466 419) rotate(90) scale(220 312)" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#C4B9FF" stop-opacity="0.26"/>
+      <stop offset="0.68" stop-color="#D9D0FF" stop-opacity="0.12"/>
+      <stop offset="1" stop-color="#E4F8FC" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="groundShadow" x="152" y="562" width="650" height="164" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="19"/>
+    </filter>
+    <filter id="nodeShadow" x="-0.4" y="-0.4" width="1.8" height="2" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="9" stdDeviation="11" flood-color="#6254E8" flood-opacity="0.1"/>
+    </filter>
+    <filter id="softGlow" x="-1" y="-1" width="3" height="3" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="7"/>
+    </filter>
+  </defs>
+
+  <!-- A transparent aura lets the illustration sit on any pale hero. -->
+  <ellipse cx="466" cy="419" rx="323" ry="230" fill="url(#aura)"/>
+  <ellipse cx="477" cy="640" rx="276" ry="25" fill="#6254E8" fill-opacity="0.13" filter="url(#groundShadow)"/>
+
+  <!-- Fine orbital connections stay behind the book. -->
+  <g stroke="url(#connection)" stroke-width="2" stroke-linecap="round">
+    <path d="M215 249C271 247 300 302 323 344"/>
+    <path d="M455 232V282C455 307 470 323 491 338"/>
+    <path d="M691 257C639 261 610 296 592 337"/>
+    <path d="M724 301V356C724 378 708 394 687 401"/>
+    <path d="M157 361L157 423C157 443 169 456 188 461"/>
+    <path d="M746 475H771C789 475 798 484 798 502V526"/>
+  </g>
+  <g stroke="#C7BFF7" stroke-width="1.5" stroke-linecap="round" stroke-dasharray="4 8">
+    <path d="M284 208C328 160 370 155 411 167"/>
+    <path d="M501 159C575 140 648 170 679 206"/>
+    <path d="M115 305C85 377 102 464 153 508"/>
+  </g>
+  <g fill="#FFFFFF" stroke-width="2.5">
+    <circle cx="323" cy="344" r="5" stroke="#A394EF"/>
+    <circle cx="491" cy="338" r="5" stroke="#8C7EE8"/>
+    <circle cx="592" cy="337" r="5" stroke="#9C92EE"/>
+    <circle cx="157" cy="361" r="5" stroke="#9C92EE"/>
+    <circle cx="798" cy="526" r="5" stroke="#31B8D8"/>
+  </g>
+
+  <!-- Floating nodes use quiet glass surfaces and abstract intelligence marks. -->
+  <g filter="url(#nodeShadow)">
+    <rect x="134" y="204" width="83" height="83" rx="23" fill="#FFFFFF" stroke="#DDD6FC" stroke-width="1.5"/>
+    <path d="M160 228L186 245L164 263M160 228L164 263M186 245L191 222" stroke="#9F90EF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="160" cy="228" r="5" fill="#6254E8"/>
+    <circle cx="186" cy="245" r="6" fill="#8173EE"/>
+    <circle cx="164" cy="263" r="4.5" fill="#B4A7F4"/>
+    <circle cx="191" cy="222" r="4" fill="#31B8D8"/>
+  </g>
+  <g filter="url(#nodeShadow)">
+    <rect x="410" y="136" width="91" height="96" rx="26" fill="#FFFFFF" stroke="#DDD6FC" stroke-width="1.5"/>
+    <path d="M455.5 154C459 172 465 178 483 181.5C465 185 459 191 455.5 209C452 191 446 185 428 181.5C446 178 452 172 455.5 154Z" fill="url(#spark)"/>
+    <path d="M480 149C481 155 483 157 489 158C483 159 481 161 480 167C479 161 477 159 471 158C477 157 479 155 480 149Z" fill="#31B8D8"/>
+  </g>
+  <g filter="url(#nodeShadow)">
+    <rect x="686" y="202" width="88" height="103" rx="23" fill="url(#glass)" stroke="#BFE6F0" stroke-width="1.5"/>
+    <path d="M708 228H749M708 239H736" stroke="#B4DCE8" stroke-width="3" stroke-linecap="round"/>
+    <path d="M709 266L719 276L743 251" stroke="#31B8D8" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="757" cy="205" r="7" fill="#FFFFFF"/>
+    <circle cx="757" cy="205" r="4" fill="#31B8D8"/>
+  </g>
+  <g filter="url(#nodeShadow)">
+    <rect x="101" y="492" width="54" height="54" rx="17" fill="#F7F4FF" stroke="#DCD4FC" stroke-width="1.5"/>
+    <path d="M119 512L113 519L119 526M136 512L142 519L136 526M131 509L125 529" stroke="#8876E8" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+
+  <!-- The dark cover and layered page edge establish a light isometric depth. -->
+  <path d="M149 376C263 352 361 379 463 427C554 372 665 356 753 376L771 567C656 556 566 584 472 628C363 585 265 577 152 598L149 376Z" fill="url(#cover)" stroke="#5140C0" stroke-width="2" stroke-linejoin="round"/>
+  <path d="M152 584C262 563 368 571 472 614C569 570 665 546 771 555V574C665 566 569 592 472 636C361 590 257 584 153 605L152 584Z" fill="url(#edge)"/>
+  <path d="M160 568C277 550 371 569 468 608C571 561 670 540 758 549V566C653 559 559 584 470 624C362 580 261 570 161 590L160 568Z" fill="#E3DCF8"/>
+  <path d="M164 576C274 559 369 577 469 617M479 616C568 577 669 552 754 558" stroke="#C9BFEA" stroke-width="2" stroke-linecap="round"/>
+  <path d="M165 582C276 565 369 583 466 622M480 622C573 583 670 559 754 565" stroke="#F7F4FF" stroke-width="2" stroke-linecap="round"/>
+
+  <!-- Broad, curved pages make the open book unmistakable at small sizes. -->
+  <path d="M149 350C262 328 374 355 463 409L469 600C369 555 261 543 158 564L149 350Z" fill="url(#pageLeft)" stroke="#DAD5F2" stroke-width="1.6" stroke-linejoin="round"/>
+  <path d="M463 409C560 353 665 329 747 350L760 540C650 532 556 556 469 600L463 409Z" fill="url(#pageRight)" stroke="#DAD5F2" stroke-width="1.6" stroke-linejoin="round"/>
+  <path d="M149 350C262 328 374 355 463 409C560 353 665 329 747 350" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/>
+  <path d="M463 409L469 599" stroke="#C1B7E8" stroke-width="2"/>
+  <path d="M457 413C456 480 460 543 464 586" stroke="#F1EDFF" stroke-width="5" stroke-linecap="round"/>
+
+  <!-- Lavender manuscript strokes suggest the teaching plan without text. -->
+  <path d="M192 390C266 382 334 398 397 425" stroke="#A797EB" stroke-width="9" stroke-linecap="round"/>
+  <path d="M194 420C273 414 344 430 410 457M195 439C272 434 343 449 409 475M196 459C259 455 309 464 360 480" stroke="#D9D1F6" stroke-width="5" stroke-linecap="round"/>
+  <path d="M198 495C235 492 266 495 296 501" stroke="#BFB1EF" stroke-width="5" stroke-linecap="round"/>
+  <path d="M199 513C262 509 327 520 388 541M200 531C251 528 302 535 350 547" stroke="#E1DAF7" stroke-width="4" stroke-linecap="round"/>
+  <path d="M510 426C572 397 642 381 706 387" stroke="#8D80E7" stroke-width="9" stroke-linecap="round"/>
+  <path d="M512 455C579 426 644 414 709 419M513 474C575 449 631 437 686 438" stroke="#D4CBF3" stroke-width="5" stroke-linecap="round"/>
+  <path d="M522 501C549 490 576 481 603 476L608 516C578 521 552 530 524 541L522 501Z" fill="#EDEAFF" stroke="#C9BDF1" stroke-width="1.5"/>
+  <path d="M538 516L551 521L575 496" stroke="#8A7BDF" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M630 484C654 480 678 479 701 480M631 501C657 497 682 496 706 498M633 518C652 515 669 514 687 514" stroke="#D8D0F3" stroke-width="4" stroke-linecap="round"/>
+
+  <!-- A single cyan bookmark and a few precise glints complete the tech palette. -->
+  <path d="M591 568L595 626L611 611L628 617L622 557C612 560 601 564 591 568Z" fill="#31B8D8"/>
+  <path d="M597 568L601 610" stroke="#8BDFEC" stroke-width="2" stroke-linecap="round"/>
+  <path d="M768 387C773 408 778 413 799 418C778 423 773 428 768 449C763 428 758 423 737 418C758 413 763 408 768 387Z" fill="#31B8D8" fill-opacity="0.16" filter="url(#softGlow)"/>
+  <path d="M768 400C771 411 775 415 786 418C775 421 771 425 768 436C765 425 761 421 750 418C761 415 765 411 768 400Z" fill="#31B8D8"/>
+  <circle cx="290" cy="176" r="5" fill="#B9AAF2"/>
+  <circle cx="629" cy="155" r="3.5" fill="#65CADF"/>
+  <circle cx="795" cy="348" r="4" fill="#B8AAF0"/>
+  <circle cx="235" cy="617" r="4" fill="#B8AAF0"/>
+  <path d="M348 278V291M341.5 284.5H354.5" stroke="#BCADF4" stroke-width="2" stroke-linecap="round"/>
+  <path d="M650 623V634M644.5 628.5H655.5" stroke="#67CDE0" stroke-width="2" stroke-linecap="round"/>
+</svg>

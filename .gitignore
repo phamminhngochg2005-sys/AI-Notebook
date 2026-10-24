@@ -1,0 +1,9 @@
+node_modules/
+data/
+.wrangler/
+.dev.vars
+secrets.json
+.secrets.*.json
+.dev.vars.*
+!.dev.vars.example
+.DS_Store

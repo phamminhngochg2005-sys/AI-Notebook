@@ -1,0 +1,44 @@
+// Cấu hình Cloudflare Worker cho Sổ tay AI (xem PLAN.md mục 3 và 13).
+// Một Worker phục vụ cả web tĩnh (public/) lẫn API (/api/*) trên cùng tên miền.
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "sotay-ai",
+  "main": "src/index.ts",                 // Codex tạo file này (PLAN.md mục 3.3)
+  "compatibility_date": "2026-10-01",
+  "compatibility_flags": ["nodejs_compat"],
+
+  // Web tĩnh: index.html (/), admin.html (/admin), css/, js/, favicon.svg, _headers, robots.txt
+  "assets": {
+    "directory": "./public",
+    "binding": "ASSETS",
+    "run_worker_first": ["/api", "/api/*", "/js/mock/*"],
+    "not_found_handling": "none",
+    "html_handling": "auto-trailing-slash"
+  },
+
+  // Cơ sở dữ liệu D1 (SQLite). Tạo bằng: npx wrangler d1 create sotay-ai → dán database_id vào đây.
+  "d1_databases": [
+    { "binding": "DB", "database_name": "sotay-ai", "database_id": "87f0e998-c4a3-44a8-9672-7954eefaf439", "migrations_dir": "migrations" }
+  ],
+
+  // Biến môi trường (không bí mật). Bí mật đặt bằng: npx wrangler secret put BOOTSTRAP_ADMIN_EMAIL …
+  "vars": {
+    "APP_ENV": "production",              // 'dev' mới nạp dữ liệu mẫu và cho phép POST /api/admin/reset
+    "PBKDF2_ITERATIONS": "100000",        // gói Workers Free (10 ms CPU) cần giảm, xem PLAN.md mục 10.1
+    "ADMIN_USERNAME": "ADMIN",
+    "TZ_OFFSET_MINUTES": "420"            // Asia/Ho_Chi_Minh, dùng chia ngày cho thống kê
+  },
+
+  // Dọn session hết hạn, rate-limit cũ mỗi ngày lúc 02:00 giờ Việt Nam (19:00 UTC)
+  "triggers": { "crons": [] },
+  "workers_dev": true,
+  "preview_urls": false,
+
+  "observability": { "enabled": true, "traces": { "enabled": true } }
+
+  // Gắn tên miền của khách (đã trỏ nameserver về Cloudflare – PLAN.md mục 13):
+  // ,"routes": [
+  //   { "pattern": "tenmien-cua-khach.vn", "custom_domain": true },
+  //   { "pattern": "www.tenmien-cua-khach.vn", "custom_domain": true }
+  // ]
+}
